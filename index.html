@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList - using basic html,css Js</title>
+    <!-- linked css stylesheet -->
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+
+
+</head>
+
+<body>
+    <div class="main-header">
+
+        <h1> <b>My To Do List </b> </h1>
+
+        <input id="inputbar" type="text" list="dropdown" size="50" placeholder="Type in here...">
+        <datalist id="dropdown">
+            <option value="Buy Milk">
+            <option value="Exercise">
+            <option value="Set up meetings">
+        </datalist>
+
+        <button type="submit" id="addButton" onclick=myFunction()>Add</button>
+
+        <p id="slogan"> <i><small> This app has been built using HTML, CSS, JS and a few <del>sleepless</del>
+                    enlightening
+                    nights </small></i></p>
+
+    </div id=checkboxes>
+
+    <!-- empty list; to be filled in by user input -->
+    <ul id='ToDoList'> </ul>
+
+</body>
+
+<!-- linked js script -->
+<script src="todoScript.js"></script>
+
+</html>

@@ -1,0 +1,113 @@
+/* applies to entire <body>  i.e. background colour of entire page*/
+body {
+  /* margin-top: 0.1px;
+  margin-left: 50px;
+  margin-right: 50px; #fff5cc; */
+  background-color: black;
+
+  /* background-image: url('/Users/Z002959/Documents/learnspace/repos/ToDoList/images/pattern.png'); */
+}
+
+/* applies to  <div class="main-header"> i.e. blue colour header */
+.main-header {
+  /* border: 10px solid; */
+  border-radius: 250px;
+  background-color: #ffcc00;
+  color: black;
+  font-family: serif;
+  padding: 30px;
+  margin-top: 50px;
+  margin-left: 300px;
+  margin-right: 300px;
+  text-align: center;
+}
+
+.main-header h2{
+  font-size: 250;
+}
+
+/* this is for the bottom slogan in the app header */
+#slogan {
+  border: 0px;
+  margin-bottom: 0cm;
+  padding-top: 30px;
+  padding-bottom: 0px;
+  font-size: 22px;
+}
+
+/* style the input bar */
+#inputbar{
+  padding: 8px;
+}
+
+
+#addButton {
+  padding: 8px;
+}
+
+
+
+/* for the 'Add' button on mouse hover */
+#addButton:hover {
+  background-color: darkgrey;
+}
+
+ul {
+  /* border: solid whitesmoke; */
+  border-radius: 250px;
+  margin-top: 20px;
+  margin-left: 400px;
+  margin-right: 400px;
+  /* padding: 0; */
+  /* margin: 0; */
+  list-style-type: none;
+
+}
+
+
+ul li {
+  border: solid #ddd;
+  border-radius: 250px;
+  margin-top: 15px;
+  /* border: 1px 
+  border-radius: 20px;
+  margin-top: -1px; */
+
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+  position: relative;
+}
+
+ul li:hover {
+  background-color: darkgray;
+}
+
+
+/* add a background color and strike out text  */
+ul li.checked {
+  background: #b3ffb3;
+  color: black;
+  text-decoration: line-through;
+}
+
+
+
+
+/* Style the X button (span) */
+.cross {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  padding: 12px 16px;
+  transform: translate(0%, -50%);
+  border-radius: 20px;
+}
+
+.cross:hover {
+  background-color: #edb418;
+}
